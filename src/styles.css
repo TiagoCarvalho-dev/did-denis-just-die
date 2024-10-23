@@ -1,0 +1,18 @@
+:root {
+  --main-background: rgb(70, 70, 70);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--main-background);
+  color: white
+}
+
+footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+}
