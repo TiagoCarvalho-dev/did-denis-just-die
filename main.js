@@ -16,7 +16,7 @@
   \**************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `:root {\n  --main-background: rgb(70, 70, 70);\n}\n\nbody {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  background-color: var(--main-background);\n  color: white\n}\n\nfooter {\n  margin-top: auto;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 0.8rem;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://did-denis-just-die/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n___CSS_LOADER_EXPORT___.push([module.id, \"@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);\"]);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `:root {\n  --main-background: rgb(0, 0, 0);\n  --buttons-color: rgb(223, 223, 223);\n  --main-text-color: rgb(209, 196, 5);\n  --secondary-text-color: rgb(230, 221, 104);\n}\n\nbody {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  background-color: var(--main-background);\n  color: white;\n  margin: 0;\n  min-height: 100vh;\n  font-family: \"Roboto\";\n}\n\nheader {\n  margin-top: 3rem;\n  color: var(--main-text-color);\n  font-size: 1.5rem;\n}\n\n.yes-no-buttons, .restore {\n  display: flex;\n  margin: 5rem;\n  gap: 2rem;\n}\n\n.yes-no-buttons > button {\n  width: 5rem;\n  height: 5rem;\n  font-weight: bold;\n  font-size: 1.5rem;\n  background-color: var(--buttons-color);\n}\n\nh2 {\n  font-size: 2rem;\n  color: var(--secondary-text-color);\n}\n\n.inputs, .messageDiv, .main-content div {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  gap: 1rem;\n}\n\n.main-content {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\ninput {\n  width: 40rem;\n  height: 2rem;\n  font-size: 1.5rem;\n}\n.restore {\n\n  background-color: var(--buttons-color);\n}\n\nfooter {\n  margin-top: auto;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  gap: 0.8rem;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://did-denis-just-die/./src/styles.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -116,7 +116,47 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n\n\nconst mainContent = document.querySelector(\".main-content\");\n\nconst resetButton = document.createElement(\"button\");\nresetButton.textContent = \"RESET\";\n\nconst deathYesButton = document.createElement(\"button\");\ndeathYesButton.textContent = \"YES\";\n\nconst deathNoButton = document.createElement(\"button\");\ndeathNoButton.textContent = \"NO\";\n\nconst denisGamingMessage = document.createElement(\"h2\");\ndenisGamingMessage.textContent = \"DENIS IS GAMING\";\n\nfunction buildMainPage() {\n  mainContent.appendChild(deathYesButton);\n  mainContent.appendChild(deathNoButton);\n}\n\nfunction clearMainContent() {\n  while(mainContent.firstChild) {\n    mainContent.removeChild(mainContent.lastChild);\n  }\n}\n\nresetButton.addEventListener(\"click\", () => {\n  clearMainContent();\n  buildMainPage();\n});\n\ndeathYesButton.addEventListener(\"click\", () => {\n  clearMainContent();\n  mainContent.appendChild(denisGamingMessage);\n  mainContent.appendChild(resetButton);\n});\n\nbuildMainPage();\n\n//# sourceURL=webpack://did-denis-just-die/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles.css */ \"./src/styles.css\");\n/* harmony import */ var _images_classic_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/classic.jpg */ \"./src/images/classic.jpg\");\n/* harmony import */ var _images_ez_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/ez.png */ \"./src/images/ez.png\");\n/* harmony import */ var _images_restore_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/restore.png */ \"./src/images/restore.png\");\n/* harmony import */ var _images_send_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/send.png */ \"./src/images/send.png\");\n\n\n\n\n\n\nconst mainContent = document.querySelector(\".main-content\");\n\nconst resetButton = document.createElement(\"button\");\nconst restore = document.createElement(\"img\");\nrestore.src = _images_restore_png__WEBPACK_IMPORTED_MODULE_3__;\nrestore.setAttribute(\"width\", \"40px\");\nrestore.setAttribute(\"height\", \"auto\");\n\nconst finalResetButton = resetButton.appendChild(restore);\n\nconst deathYesButton = document.createElement(\"button\");\ndeathYesButton.textContent = \"YES\";\n\nconst deathNoButton = document.createElement(\"button\");\ndeathNoButton.textContent = \"NO\";\n\nfunction buildMainPage() {\n  const buttonsDiv = document.createElement(\"div\");\n  buttonsDiv.classList.add(\"yes-no-buttons\");\n\n  buttonsDiv.appendChild(deathYesButton);\n  buttonsDiv.appendChild(deathNoButton);\n\n  mainContent.appendChild(buttonsDiv);\n}\n\nfunction clearMainContent() {\n  while(mainContent.firstChild) {\n    mainContent.removeChild(mainContent.lastChild);\n  }\n}\n\nfinalResetButton.addEventListener(\"click\", () => {\n  clearMainContent();\n  buildMainPage();\n});\n\ndeathYesButton.addEventListener(\"click\", () => {\n  clearMainContent();\n\n  const howDidDenisDieTitle = document.createElement(\"h2\");\n  howDidDenisDieTitle.textContent = \"HOW DID HE DIE?\";\n\n  mainContent.appendChild(howDidDenisDieTitle);\n\n  const inputDiv = document.createElement(\"div\");\n  inputDiv.classList.add(\"inputs\");\n\n  const deathCauseInput = document.createElement(\"input\");\n  deathCauseInput.setAttribute(\"type\", \"text\");\n  deathCauseInput.setAttribute(\"placeholder\", \"FORGOT ABOUT STEEL AND GOT ONE HIT K.O\");\n  deathCauseInput.setAttribute(\"maxlength\", \"37\");\n\n  const submitButton = document.createElement(\"button\");\n  const send = document.createElement(\"img\");\n  send.src = _images_send_png__WEBPACK_IMPORTED_MODULE_4__;\n  send.setAttribute(\"width\", \"26rem\");\n  send.setAttribute(\"height\", \"auto\");\n  submitButton.appendChild(send);\n\n  inputDiv.appendChild(deathCauseInput);\n  inputDiv.appendChild(submitButton);\n\n  mainContent.appendChild(inputDiv);\n\n  submitButton.addEventListener(\"click\", () => {\n    clearMainContent();\n\n    const vpnSaveMessage = document.createElement(\"h2\");\n    vpnSaveMessage.textContent = \"WOULDN'T HAVE DIED USING A VPN\";\n\n    const classic = document.createElement(\"img\");\n    classic.src = _images_classic_jpg__WEBPACK_IMPORTED_MODULE_1__;\n    classic.setAttribute(\"width\", \"80px\");\n    classic.setAttribute(\"height\", \"60px\");\n\n    const messageDiv = document.createElement(\"div\");\n    messageDiv.classList.add(\"messageDiv\")\n\n    messageDiv.appendChild(vpnSaveMessage);\n    messageDiv.appendChild(classic);\n\n    mainContent.appendChild(messageDiv);\n    mainContent.appendChild(resetButton);\n  });\n});\n\ndeathNoButton.addEventListener(\"click\", () => {\n  clearMainContent();\n\n  const denisGamingMessage = document.createElement(\"h2\");\n  denisGamingMessage.textContent = \"HE IS GAMING\";\n\n  const ez = document.createElement(\"img\");\n  ez.src = _images_ez_png__WEBPACK_IMPORTED_MODULE_2__;\n  ez.setAttribute(\"width\", \"50px\");\n  ez.setAttribute(\"height\", \"auto\");\n\n  const messageDiv = document.createElement(\"div\");\n\n  messageDiv.appendChild(denisGamingMessage);\n  messageDiv.appendChild(ez);\n\n  mainContent.appendChild(messageDiv);\n  mainContent.appendChild(resetButton);\n});\n\nbuildMainPage();\n\n//# sourceURL=webpack://did-denis-just-die/./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/images/classic.jpg":
+/*!********************************!*\
+  !*** ./src/images/classic.jpg ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3d679f34e9c874d6318e.jpg\";\n\n//# sourceURL=webpack://did-denis-just-die/./src/images/classic.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/ez.png":
+/*!***************************!*\
+  !*** ./src/images/ez.png ***!
+  \***************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"24bb6cbbf372ef627895.png\";\n\n//# sourceURL=webpack://did-denis-just-die/./src/images/ez.png?");
+
+/***/ }),
+
+/***/ "./src/images/restore.png":
+/*!********************************!*\
+  !*** ./src/images/restore.png ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fcd752cb3203aa8e2cc8.png\";\n\n//# sourceURL=webpack://did-denis-just-die/./src/images/restore.png?");
+
+/***/ }),
+
+/***/ "./src/images/send.png":
+/*!*****************************!*\
+  !*** ./src/images/send.png ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"11d658bd349d3df3fb24.png\";\n\n//# sourceURL=webpack://did-denis-just-die/./src/images/send.png?");
 
 /***/ })
 
@@ -171,6 +211,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -185,6 +237,29 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sty
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
