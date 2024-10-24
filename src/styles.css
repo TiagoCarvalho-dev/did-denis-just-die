@@ -1,13 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
-  --main-background: rgb(70, 70, 70);
+  --main-background: rgb(0, 0, 0);
+  --buttons-color: rgb(223, 223, 223);
+  --main-text-color: rgb(209, 196, 5);
+  --secondary-text-color: rgb(230, 221, 104);
 }
 
 body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   background-color: var(--main-background);
-  color: white
+  color: white;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Roboto";
+}
+
+header {
+  margin-top: 3rem;
+  color: var(--main-text-color);
+  font-size: 1.5rem;
+}
+
+.yes-no-buttons, .restore {
+  display: flex;
+  margin: 5rem;
+  gap: 2rem;
+}
+
+.yes-no-buttons > button {
+  width: 5rem;
+  height: 5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: var(--buttons-color);
+}
+
+h2 {
+  font-size: 2rem;
+  color: var(--secondary-text-color);
+}
+
+.inputs, .messageDiv, .main-content div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 40rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+.restore {
+
+  background-color: var(--buttons-color);
 }
 
 footer {

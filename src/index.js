@@ -1,11 +1,18 @@
 import "./styles.css"
 import classicImg from "./images/classic.jpg"
 import ezImg from "./images/ez.png"
+import restoreImg from "./images/restore.png"
+import sendImg from "./images/send.png"
 
 const mainContent = document.querySelector(".main-content");
 
 const resetButton = document.createElement("button");
-resetButton.textContent = "RESET";
+const restore = document.createElement("img");
+restore.src = restoreImg;
+restore.setAttribute("width", "40px");
+restore.setAttribute("height", "auto");
+
+const finalResetButton = resetButton.appendChild(restore);
 
 const deathYesButton = document.createElement("button");
 deathYesButton.textContent = "YES";
@@ -14,8 +21,13 @@ const deathNoButton = document.createElement("button");
 deathNoButton.textContent = "NO";
 
 function buildMainPage() {
-  mainContent.appendChild(deathYesButton);
-  mainContent.appendChild(deathNoButton);
+  const buttonsDiv = document.createElement("div");
+  buttonsDiv.classList.add("yes-no-buttons");
+
+  buttonsDiv.appendChild(deathYesButton);
+  buttonsDiv.appendChild(deathNoButton);
+
+  mainContent.appendChild(buttonsDiv);
 }
 
 function clearMainContent() {
@@ -24,7 +36,7 @@ function clearMainContent() {
   }
 }
 
-resetButton.addEventListener("click", () => {
+finalResetButton.addEventListener("click", () => {
   clearMainContent();
   buildMainPage();
 });
@@ -37,13 +49,25 @@ deathYesButton.addEventListener("click", () => {
 
   mainContent.appendChild(howDidDenisDieTitle);
 
+  const inputDiv = document.createElement("div");
+  inputDiv.classList.add("inputs");
+
   const deathCauseInput = document.createElement("input");
   deathCauseInput.setAttribute("type", "text");
-
-  mainContent.append(deathCauseInput);
+  deathCauseInput.setAttribute("placeholder", "FORGOT ABOUT STEEL AND GOT ONE HIT K.O");
+  deathCauseInput.setAttribute("maxlength", "37");
 
   const submitButton = document.createElement("button");
-  mainContent.appendChild(submitButton);
+  const send = document.createElement("img");
+  send.src = sendImg;
+  send.setAttribute("width", "26rem");
+  send.setAttribute("height", "auto");
+  submitButton.appendChild(send);
+
+  inputDiv.appendChild(deathCauseInput);
+  inputDiv.appendChild(submitButton);
+
+  mainContent.appendChild(inputDiv);
 
   submitButton.addEventListener("click", () => {
     clearMainContent();
@@ -53,10 +77,11 @@ deathYesButton.addEventListener("click", () => {
 
     const classic = document.createElement("img");
     classic.src = classicImg;
-    classic.setAttribute("width", "90px");
-    classic.setAttribute("height", "auto");
+    classic.setAttribute("width", "80px");
+    classic.setAttribute("height", "60px");
 
     const messageDiv = document.createElement("div");
+    messageDiv.classList.add("messageDiv")
 
     messageDiv.appendChild(vpnSaveMessage);
     messageDiv.appendChild(classic);
